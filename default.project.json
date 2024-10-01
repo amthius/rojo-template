@@ -1,0 +1,26 @@
+{
+  "name": "Template",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$path": "src/shared",
+
+      "Client": {
+        "$path": "src/client",
+        "$properties": {
+          "RunContext": {
+            "Enum": 2
+          }
+        }
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    }
+    
+  }
+}
