@@ -5,9 +5,11 @@
 
     "ReplicatedStorage": {
       "$path": "src/shared",
+      "$ignoreUnknownInstances": true,
 
       "Client": {
         "$path": "src/client",
+        "$ignoreUnknownInstances": true,
         "$properties": {
           "RunContext": {
             "Enum": 2
@@ -18,7 +20,8 @@
 
     "ServerScriptService": {
       "Server": {
-        "$path": "src/server"
+        "$path": "src/server",
+        "$ignoreUnknownInstances": true
       }
     }
     
